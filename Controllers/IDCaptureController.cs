@@ -2,7 +2,7 @@
 using Azure.AI.Vision.ImageAnalysis;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Exceet.IDCapture.Controllers;
+namespace IDCapture.Controllers;
 
 [ApiController]
 [Route("api/id")] // <--- CHECK THIS LINE CAREFULLY

@@ -1,5 +1,5 @@
 ﻿using System.Text.RegularExpressions;
-using Exceet.IDCapture.Models;
+using IDCapture.Models;
 
 public class IDParsingService
 {

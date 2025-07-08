@@ -1,4 +1,4 @@
-﻿namespace Exceet.IDCapture.Models
+﻿namespace IDCapture.Models
 {
     public class CardData
     {
