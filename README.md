@@ -1,6 +1,6 @@
 # Smart ID Data Capture & Verification
 
-This is a technical demonstration project built for exceet Card AG. It is a .NET 8 Web API with a simple web interface that showcases AI-powered data extraction and verification from identity documents.
+This is a technical demonstration project. It is a .NET 8 Web API with a simple web interface that showcases AI-powered data extraction and verification from identity documents.
 
 
 ## Features
