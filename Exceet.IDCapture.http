@@ -1,0 +1,6 @@
+@Exceet.IDCapture_HostAddress = http://localhost:5007
+
+GET {{Exceet.IDCapture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

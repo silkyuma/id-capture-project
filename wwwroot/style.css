@@ -1,0 +1,159 @@
+﻿/* --- Basic Setup & Body --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Main Container --- */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #1a2b48; /* A professional dark blue */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* --- File Input & Button --- */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    border: 2px dashed #d0dbe5;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0078d4; /* Microsoft's blue */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    button:hover {
+        background-color: #005a9e;
+    }
+
+/* --- Loader Spinner --- */
+.loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #0078d4; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 30px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* --- Results Area --- */
+#results {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e1e8ed;
+}
+
+    #results h2 {
+        color: #1a2b48;
+        border-bottom: 2px solid #e1e8ed;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+
+    #results p {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    #results strong {
+        color: #333;
+        min-width: 180px;
+        display: inline-block;
+    }
+
+/* --- Validation Indicators --- */
+.valid {
+    color: #107c10; /* Green */
+    font-weight: bold;
+    background-color: #dff6dd;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.invalid {
+    color: #d83b01; /* Red */
+    font-weight: bold;
+    background-color: #fdecea;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.error {
+    color: #d83b01;
+    font-weight: bold;
+}
+
+/* --- Utility Classes --- */
+.hidden {
+    display: none;
+}
+details {
+    margin-top: 20px;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #005a9e;
+}
+
+pre {
+    background-color: #f9fafb;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Allows text to wrap */
+    word-wrap: break-word;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
